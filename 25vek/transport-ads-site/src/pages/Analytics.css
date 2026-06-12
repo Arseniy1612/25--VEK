@@ -1,0 +1,38 @@
+.analytics {
+  padding: 40px;
+}
+
+.analytics h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.analytics-block {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.analytics-block h2 {
+  margin-bottom: 10px;
+}
+
+.analytics-block p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.read-more {
+  padding: 10px 20px;
+  border: none;
+  background: #0077ff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.read-more:hover {
+  background: #005ecc;
+}

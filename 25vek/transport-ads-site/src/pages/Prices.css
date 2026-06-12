@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+.prices {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+
+  font-family: 'Supermercado One', cursive;
+
+  line-height: 1.6;
+}
+
+.prices h1,
+.prices h2,
+.subtitle,
+.note {
+  font-family: 'Supermercado One', cursive;
+}
+
+.prices p,
+.prices li,
+.price-block div {
+  font-family: 'Supermercado One', cursive;
+}
+
+table,
+table th,
+table td {
+  font-family: 'Quantico', sans-serif;
+}
+
+.price,
+.cost,
+.number {
+  font-family: 'Quantico', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+strong {
+  font-family: 'Quantico', sans-serif;
+}
+
+.prices h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.price-block {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 60px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background: #f9f9f9;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.price-block:hover {
+  transform: translateY(-5px);
+}
+
+.price-block img {
+  width: 400px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.price-block div {
+  flex: 1;
+  min-width: 300px;
+}
+.price-block h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px 0;
+  font-size: 1.1em;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+
+table th {
+  background: #ff9900;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background: #fff3e0;
+}
+.note {
+  margin-top: 40px;
+  padding: 25px;
+  background: #fff3e0;
+  border-left: 6px solid #ff9900;
+  font-size: 1.2em;
+  border-radius: 10px;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .price-block img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .price-block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-block div {
+    text-align: center;
+  }
+}

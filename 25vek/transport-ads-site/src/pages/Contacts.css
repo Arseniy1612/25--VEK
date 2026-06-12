@@ -1,0 +1,49 @@
+.contacts {
+  padding: 40px;
+}
+
+.contacts h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contacts-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contacts-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contacts-info h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.contacts-info p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.phones {
+  margin: 15px 0;
+}
+
+.mobile img {
+  width: 22px;
+  margin-left: 10px;
+  vertical-align: middle;
+  transition: 0.2s;
+}
+
+.mobile img:hover {
+  transform: scale(1.2);
+}
+
+.map {
+  flex: 1;
+  min-width: 300px;
+}
